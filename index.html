@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Now</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do Now</title>
 </head>
+
 <body>
-    <div class="navbar">
-        <a href="index.html">Do Now</a>
-        <a href="querySelector.html">querySelector</a>
-        <a href="inner.html">innerHTML</a>
-        <a href="updateImage.html">Update Images</a>
-      </div>
+  <div class="navbar">
+    <a href="index.html">Do Now</a>
+    <a href="querySelector.html">querySelector</a>
+    <a href="inner.html">innerHTML</a>
+    <a href="updateImage.html">Update Images</a>
+  </div>
 
-    <p>I am unchanged</p>
+  <p>I am unchanged</p>
 
-    <!-- 1. Add an onclick attribute and set the value to the changeText function. -->
-    <!-- 2. Run the code and test to see if everything works 👍 -->
-    <button>Click to Change Text</button>
+  <!-- 1. Add an onclick attribute and set the value to the changeText function. -->
+  <!-- 2. Run the code and test to see if everything works 👍 -->
+  <button onclick=changeText()>Click to Change Text</button>
 
 
 
-    <!-- DO NOT CHANGE THE CODE BELOW -->
-    <!-- script tag that contains changeText function -->
-    <script>
+  <!-- DO NOT CHANGE THE CODE BELOW -->
+  <!-- script tag that contains changeText function -->
+  <script>
     function changeText() {
-    document.querySelector("p").innerHTML = "I have been changed!";
+      document.querySelector("p").innerHTML = "I have been changed!";
     }
-    </script>
+  </script>
 </body>
+
 </html>
